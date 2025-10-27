@@ -1,0 +1,346 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 75139323,
+            "classId": 6488152,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.533Z",
+            "updatedAt": "2023-10-18T12:09:06.533Z",
+            "tags": [],
+            "classTitle": "creature",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139322,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.532Z",
+            "updatedAt": "2023-10-18T12:09:06.532Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139321,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.532Z",
+            "updatedAt": "2023-10-18T12:09:06.532Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139320,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.532Z",
+            "updatedAt": "2023-10-18T12:09:06.532Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        166
+                    ],
+                    [
+                        390,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139319,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.531Z",
+            "updatedAt": "2023-10-18T12:09:06.531Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        166
+                    ],
+                    [
+                        458,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139318,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.528Z",
+            "updatedAt": "2023-10-18T12:09:06.528Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        166
+                    ],
+                    [
+                        492,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139317,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.528Z",
+            "updatedAt": "2023-10-18T12:09:06.528Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        166
+                    ],
+                    [
+                        526,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139316,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.528Z",
+            "updatedAt": "2023-10-18T12:09:06.528Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        166
+                    ],
+                    [
+                        560,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139315,
+            "classId": 6488152,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.528Z",
+            "updatedAt": "2023-10-18T12:09:06.528Z",
+            "tags": [],
+            "classTitle": "creature",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        200
+                    ],
+                    [
+                        322,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139314,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.528Z",
+            "updatedAt": "2023-10-18T12:09:06.528Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        200
+                    ],
+                    [
+                        322,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139313,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.527Z",
+            "updatedAt": "2023-10-18T12:09:06.527Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        200
+                    ],
+                    [
+                        356,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139312,
+            "classId": 6488150,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.527Z",
+            "updatedAt": "2023-10-18T12:09:06.527Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        200
+                    ],
+                    [
+                        390,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139311,
+            "classId": 6488154,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.527Z",
+            "updatedAt": "2023-10-18T12:09:06.527Z",
+            "tags": [],
+            "classTitle": "trafficsign",
+            "points": {
+                "exterior": [
+                    [
+                        244,
+                        0
+                    ],
+                    [
+                        304,
+                        60
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75139310,
+            "classId": 6488154,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:09:06.527Z",
+            "updatedAt": "2023-10-18T12:09:06.527Z",
+            "tags": [],
+            "classTitle": "trafficsign",
+            "points": {
+                "exterior": [
+                    [
+                        604,
+                        0
+                    ],
+                    [
+                        664,
+                        60
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

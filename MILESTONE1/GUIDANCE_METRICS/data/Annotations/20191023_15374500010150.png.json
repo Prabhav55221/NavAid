@@ -1,0 +1,610 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 74926073,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.710Z",
+            "updatedAt": "2023-10-18T11:21:02.710Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926072,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.710Z",
+            "updatedAt": "2023-10-18T11:21:02.710Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926071,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.710Z",
+            "updatedAt": "2023-10-18T11:21:02.710Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        166
+                    ],
+                    [
+                        526,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926070,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.709Z",
+            "updatedAt": "2023-10-18T11:21:02.709Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        166
+                    ],
+                    [
+                        560,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926069,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.709Z",
+            "updatedAt": "2023-10-18T11:21:02.709Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        200
+                    ],
+                    [
+                        254,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926068,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.708Z",
+            "updatedAt": "2023-10-18T11:21:02.708Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        200
+                    ],
+                    [
+                        288,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926067,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.708Z",
+            "updatedAt": "2023-10-18T11:21:02.708Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        200
+                    ],
+                    [
+                        322,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926066,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.707Z",
+            "updatedAt": "2023-10-18T11:21:02.707Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        560,
+                        200
+                    ],
+                    [
+                        594,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926065,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.707Z",
+            "updatedAt": "2023-10-18T11:21:02.707Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        594,
+                        200
+                    ],
+                    [
+                        628,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926064,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.707Z",
+            "updatedAt": "2023-10-18T11:21:02.707Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        234
+                    ],
+                    [
+                        254,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926063,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.707Z",
+            "updatedAt": "2023-10-18T11:21:02.707Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        234
+                    ],
+                    [
+                        288,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926062,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.706Z",
+            "updatedAt": "2023-10-18T11:21:02.706Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        268
+                    ],
+                    [
+                        53,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926061,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.706Z",
+            "updatedAt": "2023-10-18T11:21:02.706Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        268
+                    ],
+                    [
+                        106,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926060,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.705Z",
+            "updatedAt": "2023-10-18T11:21:02.705Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        268
+                    ],
+                    [
+                        159,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926059,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.705Z",
+            "updatedAt": "2023-10-18T11:21:02.705Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        159,
+                        268
+                    ],
+                    [
+                        212,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926058,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.704Z",
+            "updatedAt": "2023-10-18T11:21:02.704Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        212,
+                        268
+                    ],
+                    [
+                        265,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926057,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.704Z",
+            "updatedAt": "2023-10-18T11:21:02.704Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        689,
+                        268
+                    ],
+                    [
+                        742,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926056,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.703Z",
+            "updatedAt": "2023-10-18T11:21:02.703Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        742,
+                        268
+                    ],
+                    [
+                        795,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926055,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.703Z",
+            "updatedAt": "2023-10-18T11:21:02.703Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        795,
+                        268
+                    ],
+                    [
+                        847,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926054,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.702Z",
+            "updatedAt": "2023-10-18T11:21:02.702Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        321
+                    ],
+                    [
+                        53,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926053,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.702Z",
+            "updatedAt": "2023-10-18T11:21:02.702Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        321
+                    ],
+                    [
+                        106,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926052,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.702Z",
+            "updatedAt": "2023-10-18T11:21:02.702Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        321
+                    ],
+                    [
+                        159,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926051,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.701Z",
+            "updatedAt": "2023-10-18T11:21:02.701Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        159,
+                        321
+                    ],
+                    [
+                        212,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926050,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.701Z",
+            "updatedAt": "2023-10-18T11:21:02.701Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        374
+                    ],
+                    [
+                        53,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74926049,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:21:02.701Z",
+            "updatedAt": "2023-10-18T11:21:02.701Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        374
+                    ],
+                    [
+                        106,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

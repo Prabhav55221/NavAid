@@ -1,0 +1,442 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 74884869,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.835Z",
+            "updatedAt": "2023-10-18T11:11:42.835Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884868,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.835Z",
+            "updatedAt": "2023-10-18T11:11:42.835Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884867,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.835Z",
+            "updatedAt": "2023-10-18T11:11:42.835Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        166
+                    ],
+                    [
+                        458,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884866,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.835Z",
+            "updatedAt": "2023-10-18T11:11:42.835Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        166
+                    ],
+                    [
+                        492,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884865,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.835Z",
+            "updatedAt": "2023-10-18T11:11:42.835Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        166
+                    ],
+                    [
+                        526,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884864,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        166
+                    ],
+                    [
+                        560,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884863,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        200
+                    ],
+                    [
+                        356,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884862,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        200
+                    ],
+                    [
+                        424,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884861,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        200
+                    ],
+                    [
+                        458,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884860,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        200
+                    ],
+                    [
+                        492,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884859,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        200
+                    ],
+                    [
+                        526,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884858,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.834Z",
+            "updatedAt": "2023-10-18T11:11:42.834Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        200
+                    ],
+                    [
+                        560,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884857,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        560,
+                        200
+                    ],
+                    [
+                        594,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884856,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        594,
+                        200
+                    ],
+                    [
+                        628,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884855,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        234
+                    ],
+                    [
+                        526,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884854,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        234
+                    ],
+                    [
+                        560,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884853,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        560,
+                        234
+                    ],
+                    [
+                        594,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74884852,
+            "classId": 6488153,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:11:42.833Z",
+            "updatedAt": "2023-10-18T11:11:42.833Z",
+            "tags": [],
+            "classTitle": "zebracrossing",
+            "points": {
+                "exterior": [
+                    [
+                        594,
+                        234
+                    ],
+                    [
+                        628,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

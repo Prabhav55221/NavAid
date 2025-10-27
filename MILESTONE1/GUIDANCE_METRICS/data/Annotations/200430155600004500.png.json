@@ -1,0 +1,706 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 75039494,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039493,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039492,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039491,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039490,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        166
+                    ],
+                    [
+                        390,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039489,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        166
+                    ],
+                    [
+                        390,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039488,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.944Z",
+            "updatedAt": "2023-10-18T11:47:58.944Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        166
+                    ],
+                    [
+                        424,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039487,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        200
+                    ],
+                    [
+                        254,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039486,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        200
+                    ],
+                    [
+                        254,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039485,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        200
+                    ],
+                    [
+                        288,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039484,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        200
+                    ],
+                    [
+                        288,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039483,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        200
+                    ],
+                    [
+                        322,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039482,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        200
+                    ],
+                    [
+                        356,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039481,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        234
+                    ],
+                    [
+                        254,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039480,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        234
+                    ],
+                    [
+                        288,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039479,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.943Z",
+            "updatedAt": "2023-10-18T11:47:58.943Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        268
+                    ],
+                    [
+                        53,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039478,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        268
+                    ],
+                    [
+                        53,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039477,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        268
+                    ],
+                    [
+                        106,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039476,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        268
+                    ],
+                    [
+                        106,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039475,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        268
+                    ],
+                    [
+                        159,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039474,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        268
+                    ],
+                    [
+                        159,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039473,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        159,
+                        268
+                    ],
+                    [
+                        212,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039472,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        212,
+                        268
+                    ],
+                    [
+                        265,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039471,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.942Z",
+            "updatedAt": "2023-10-18T11:47:58.942Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        321
+                    ],
+                    [
+                        53,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039470,
+            "classId": 6488146,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.941Z",
+            "updatedAt": "2023-10-18T11:47:58.941Z",
+            "tags": [],
+            "classTitle": "weed",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        321
+                    ],
+                    [
+                        53,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039469,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.941Z",
+            "updatedAt": "2023-10-18T11:47:58.941Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        321
+                    ],
+                    [
+                        106,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039468,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.940Z",
+            "updatedAt": "2023-10-18T11:47:58.940Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        321
+                    ],
+                    [
+                        159,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039467,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.940Z",
+            "updatedAt": "2023-10-18T11:47:58.940Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        374
+                    ],
+                    [
+                        53,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75039466,
+            "classId": 6488149,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:47:58.940Z",
+            "updatedAt": "2023-10-18T11:47:58.940Z",
+            "tags": [],
+            "classTitle": "dent",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        374
+                    ],
+                    [
+                        106,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

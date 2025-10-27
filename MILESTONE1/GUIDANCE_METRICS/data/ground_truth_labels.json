@@ -1,0 +1,7313 @@
+[
+  {
+    "image_name": "191209_15153700019170.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/191209_15153700019170.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 4,
+    "num_informational": 0,
+    "num_non_hazards": 0,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74931062
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74931061
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 74931060
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74931059
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [],
+    "unknown_objects": [],
+    "total_objects": 4
+  },
+  {
+    "image_name": "191209_15293600011610.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/191209_15293600011610.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 2,
+    "num_informational": 0,
+    "num_non_hazards": 14,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74999155
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74999154
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74999153
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 74999152
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74999151
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74999150
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74999149
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            530,
+            268
+          ],
+          [
+            583,
+            321
+          ]
+        ],
+        "id": 74999148
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            583,
+            268
+          ],
+          [
+            636,
+            321
+          ]
+        ],
+        "id": 74999147
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            636,
+            268
+          ],
+          [
+            689,
+            321
+          ]
+        ],
+        "id": 74999146
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            636,
+            321
+          ],
+          [
+            689,
+            374
+          ]
+        ],
+        "id": 74999145
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            689,
+            321
+          ],
+          [
+            742,
+            374
+          ]
+        ],
+        "id": 74999144
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            689,
+            374
+          ],
+          [
+            742,
+            427
+          ]
+        ],
+        "id": 74999143
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            742,
+            374
+          ],
+          [
+            795,
+            427
+          ]
+        ],
+        "id": 74999142
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            795,
+            374
+          ],
+          [
+            847,
+            427
+          ]
+        ],
+        "id": 74999141
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            795,
+            427
+          ],
+          [
+            847,
+            479
+          ]
+        ],
+        "id": 74999140
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 16
+  },
+  {
+    "image_name": "191231_14393900006480.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/191231_14393900006480.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 23,
+    "num_informational": 0,
+    "num_non_hazards": 7,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74968758
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74968757
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74968756
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74968754
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74968752
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74968750
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74968749
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74968748
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74968747
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74968745
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74968744
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74968743
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 74968742
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74968741
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 74968739
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74968736
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 74968735
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74968734
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74968733
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            424,
+            234
+          ],
+          [
+            458,
+            268
+          ]
+        ],
+        "id": 74968732
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            458,
+            234
+          ],
+          [
+            492,
+            268
+          ]
+        ],
+        "id": 74968731
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74968730
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74968729
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74968755
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74968753
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74968751
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74968746
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 74968740
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74968738
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74968737
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 30
+  },
+  {
+    "image_name": "200425_17443800001080.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200425_17443800001080.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 0,
+    "num_non_hazards": 11,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74956078
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74956077
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74956076
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74956075
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74956074
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74956073
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            636,
+            268
+          ],
+          [
+            689,
+            321
+          ]
+        ],
+        "id": 74956072
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74956071
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74956070
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 74956069
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            321
+          ],
+          [
+            847,
+            374
+          ]
+        ],
+        "id": 74956068
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 11
+  },
+  {
+    "image_name": "200425_17552200000510.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200425_17552200000510.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 16,
+    "num_informational": 0,
+    "num_non_hazards": 0,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 75076548
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 75076547
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75076546
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 75076545
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 75076544
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 75076543
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 75076542
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 75076541
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 75076540
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 75076539
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 75076538
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 75076537
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            458,
+            234
+          ],
+          [
+            492,
+            268
+          ]
+        ],
+        "id": 75076536
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 75076535
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 75076534
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 75076533
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [],
+    "unknown_objects": [],
+    "total_objects": 16
+  },
+  {
+    "image_name": "200430155600004500.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430155600004500.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 0,
+    "num_non_hazards": 29,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75039494
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75039493
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75039492
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75039491
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 75039490
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 75039489
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 75039488
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 75039487
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 75039486
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 75039485
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 75039484
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 75039483
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 75039482
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 75039481
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            254,
+            234
+          ],
+          [
+            288,
+            268
+          ]
+        ],
+        "id": 75039480
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 75039479
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 75039478
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 75039477
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 75039476
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 75039475
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 75039474
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 75039473
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 75039472
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 75039471
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 75039470
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 75039469
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 75039468
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            0,
+            374
+          ],
+          [
+            53,
+            427
+          ]
+        ],
+        "id": 75039467
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 75039466
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 29
+  },
+  {
+    "image_name": "200430155600008160.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430155600008160.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 11,
+    "num_informational": 0,
+    "num_non_hazards": 18,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74905880
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74905879
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74905877
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74905875
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74905870
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 74905869
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74905868
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74905867
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            234
+          ],
+          [
+            356,
+            268
+          ]
+        ],
+        "id": 74905862
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            234
+          ],
+          [
+            390,
+            268
+          ]
+        ],
+        "id": 74905861
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            234
+          ],
+          [
+            424,
+            268
+          ]
+        ],
+        "id": 74905860
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74905882
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74905881
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74905878
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74905876
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74905874
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74905873
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 74905872
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74905871
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 74905866
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            254,
+            234
+          ],
+          [
+            288,
+            268
+          ]
+        ],
+        "id": 74905865
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            234
+          ],
+          [
+            322,
+            268
+          ]
+        ],
+        "id": 74905864
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            234
+          ],
+          [
+            356,
+            268
+          ]
+        ],
+        "id": 74905863
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74905859
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74905858
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 74905857
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 74905856
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            265,
+            268
+          ],
+          [
+            318,
+            321
+          ]
+        ],
+        "id": 74905855
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            318,
+            268
+          ],
+          [
+            371,
+            321
+          ]
+        ],
+        "id": 74905854
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 29
+  },
+  {
+    "image_name": "200430_15025200000180.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15025200000180.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 27,
+    "num_informational": 0,
+    "num_non_hazards": 1,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74956905
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74956904
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74956903
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74956902
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74956901
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74956900
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74956899
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74956898
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74956897
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74956896
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 74956895
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74956894
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 74956893
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74956892
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74956891
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 74956890
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            254,
+            234
+          ],
+          [
+            288,
+            268
+          ]
+        ],
+        "id": 74956889
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            288,
+            234
+          ],
+          [
+            322,
+            268
+          ]
+        ],
+        "id": 74956888
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            322,
+            234
+          ],
+          [
+            356,
+            268
+          ]
+        ],
+        "id": 74956887
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74956886
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74956885
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74956884
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 74956883
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 74956882
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 74956880
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 74956879
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 74956878
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 74956881
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 28
+  },
+  {
+    "image_name": "200430_15090700000030.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15090700000030.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 25,
+    "num_informational": 0,
+    "num_non_hazards": 0,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74903142
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74903141
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74903140
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74903139
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74903138
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74903137
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74903136
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 74903135
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74903134
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74903133
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            288,
+            234
+          ],
+          [
+            322,
+            268
+          ]
+        ],
+        "id": 74903132
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            322,
+            234
+          ],
+          [
+            356,
+            268
+          ]
+        ],
+        "id": 74903131
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            356,
+            234
+          ],
+          [
+            390,
+            268
+          ]
+        ],
+        "id": 74903130
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            390,
+            234
+          ],
+          [
+            424,
+            268
+          ]
+        ],
+        "id": 74903129
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74903128
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74903127
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 74903126
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 74903125
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 74903124
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            0,
+            374
+          ],
+          [
+            53,
+            427
+          ]
+        ],
+        "id": 74903123
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 74903122
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            106,
+            374
+          ],
+          [
+            159,
+            427
+          ]
+        ],
+        "id": 74903121
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            0,
+            427
+          ],
+          [
+            53,
+            479
+          ]
+        ],
+        "id": 74903120
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            53,
+            427
+          ],
+          [
+            106,
+            479
+          ]
+        ],
+        "id": 74903119
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            106,
+            427
+          ],
+          [
+            159,
+            479
+          ]
+        ],
+        "id": 74903118
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [],
+    "unknown_objects": [],
+    "total_objects": 25
+  },
+  {
+    "image_name": "200430_15135500001050.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15135500001050.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 3,
+    "num_informational": 0,
+    "num_non_hazards": 6,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "column",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75137835
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75137833
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 75137831
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75137836
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75137834
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 75137832
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 75137830
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 75137829
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 75137828
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 9
+  },
+  {
+    "image_name": "200430_15155400002580.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15155400002580.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 8,
+    "num_informational": 2,
+    "num_non_hazards": 4,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75139323
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75139322
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75139321
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 75139320
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 75139315
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 75139314
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 75139313
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 75139312
+      }
+    ],
+    "informational_objects": [
+      {
+        "class": "trafficsign",
+        "bbox": [
+          [
+            244,
+            0
+          ],
+          [
+            304,
+            60
+          ]
+        ],
+        "id": 75139311
+      },
+      {
+        "class": "trafficsign",
+        "bbox": [
+          [
+            604,
+            0
+          ],
+          [
+            664,
+            60
+          ]
+        ],
+        "id": 75139310
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 75139319
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75139318
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 75139317
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 75139316
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 14
+  },
+  {
+    "image_name": "200430_15193900000870.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15193900000870.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 13,
+    "num_informational": 0,
+    "num_non_hazards": 0,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 75134369
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 75134368
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75134367
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 75134366
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 75134365
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 75134364
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 75134363
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 75134362
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 75134361
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 75134360
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 75134359
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 75134358
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 75134357
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [],
+    "unknown_objects": [],
+    "total_objects": 13
+  },
+  {
+    "image_name": "200430_15193900002670.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200430_15193900002670.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 1,
+    "num_informational": 8,
+    "num_non_hazards": 5,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "column",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75059738
+      }
+    ],
+    "informational_objects": [
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 75059743
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 75059742
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 75059741
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 75059736
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 75059735
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 75059734
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 75059733
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 75059732
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 75059740
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75059739
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 75059737
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 75059731
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 75059730
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 14
+  },
+  {
+    "image_name": "200508_13340300000750.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200508_13340300000750.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 12,
+    "num_informational": 0,
+    "num_non_hazards": 24,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "column",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74994094
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74994093
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74994089
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74994081
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74994080
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 74994079
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 74994073
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 74994072
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            159,
+            321
+          ],
+          [
+            212,
+            374
+          ]
+        ],
+        "id": 74994071
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 74994066
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            106,
+            374
+          ],
+          [
+            159,
+            427
+          ]
+        ],
+        "id": 74994065
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            159,
+            374
+          ],
+          [
+            212,
+            427
+          ]
+        ],
+        "id": 74994064
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74994092
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74994091
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74994090
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74994088
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74994087
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74994086
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74994085
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74994084
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 74994083
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74994082
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            530,
+            268
+          ],
+          [
+            583,
+            321
+          ]
+        ],
+        "id": 74994078
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            583,
+            268
+          ],
+          [
+            636,
+            321
+          ]
+        ],
+        "id": 74994077
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            636,
+            268
+          ],
+          [
+            689,
+            321
+          ]
+        ],
+        "id": 74994076
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74994075
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74994074
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            636,
+            321
+          ],
+          [
+            689,
+            374
+          ]
+        ],
+        "id": 74994070
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            321
+          ],
+          [
+            742,
+            374
+          ]
+        ],
+        "id": 74994069
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            321
+          ],
+          [
+            795,
+            374
+          ]
+        ],
+        "id": 74994068
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            321
+          ],
+          [
+            847,
+            374
+          ]
+        ],
+        "id": 74994067
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            374
+          ],
+          [
+            742,
+            427
+          ]
+        ],
+        "id": 74994063
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            374
+          ],
+          [
+            795,
+            427
+          ]
+        ],
+        "id": 74994062
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            374
+          ],
+          [
+            847,
+            427
+          ]
+        ],
+        "id": 74994061
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            427
+          ],
+          [
+            795,
+            479
+          ]
+        ],
+        "id": 74994060
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            427
+          ],
+          [
+            847,
+            479
+          ]
+        ],
+        "id": 74994059
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 36
+  },
+  {
+    "image_name": "200508_13460200003690.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200508_13460200003690.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 0,
+    "num_non_hazards": 12,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74939665
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74939664
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74939663
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74939662
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            424,
+            268
+          ],
+          [
+            477,
+            321
+          ]
+        ],
+        "id": 74939661
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            477,
+            268
+          ],
+          [
+            530,
+            321
+          ]
+        ],
+        "id": 74939660
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            371,
+            321
+          ],
+          [
+            424,
+            374
+          ]
+        ],
+        "id": 74939659
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            424,
+            321
+          ],
+          [
+            477,
+            374
+          ]
+        ],
+        "id": 74939658
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            265,
+            374
+          ],
+          [
+            318,
+            427
+          ]
+        ],
+        "id": 74939657
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            318,
+            374
+          ],
+          [
+            371,
+            427
+          ]
+        ],
+        "id": 74939656
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            212,
+            427
+          ],
+          [
+            265,
+            479
+          ]
+        ],
+        "id": 74939655
+      },
+      {
+        "class": "dent",
+        "bbox": [
+          [
+            265,
+            427
+          ],
+          [
+            318,
+            479
+          ]
+        ],
+        "id": 74939654
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 12
+  },
+  {
+    "image_name": "200508_14194800007650.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/200508_14194800007650.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 6,
+    "num_informational": 0,
+    "num_non_hazards": 32,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 75035774
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 75035773
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 75035767
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 75035766
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 75035757
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 75035756
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 75035772
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            200
+          ],
+          [
+            390,
+            234
+          ]
+        ],
+        "id": 75035771
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 75035770
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 75035769
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 75035768
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 75035765
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            254,
+            234
+          ],
+          [
+            288,
+            268
+          ]
+        ],
+        "id": 75035764
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            234
+          ],
+          [
+            322,
+            268
+          ]
+        ],
+        "id": 75035763
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            234
+          ],
+          [
+            356,
+            268
+          ]
+        ],
+        "id": 75035762
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            234
+          ],
+          [
+            390,
+            268
+          ]
+        ],
+        "id": 75035761
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            234
+          ],
+          [
+            424,
+            268
+          ]
+        ],
+        "id": 75035760
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            234
+          ],
+          [
+            458,
+            268
+          ]
+        ],
+        "id": 75035759
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            234
+          ],
+          [
+            492,
+            268
+          ]
+        ],
+        "id": 75035758
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 75035755
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 75035754
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 75035753
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 75035752
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            265,
+            268
+          ],
+          [
+            318,
+            321
+          ]
+        ],
+        "id": 75035751
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            318,
+            268
+          ],
+          [
+            371,
+            321
+          ]
+        ],
+        "id": 75035750
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            371,
+            268
+          ],
+          [
+            424,
+            321
+          ]
+        ],
+        "id": 75035749
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 75035748
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 75035747
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 75035746
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            321
+          ],
+          [
+            212,
+            374
+          ]
+        ],
+        "id": 75035745
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            212,
+            321
+          ],
+          [
+            265,
+            374
+          ]
+        ],
+        "id": 75035744
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            265,
+            321
+          ],
+          [
+            318,
+            374
+          ]
+        ],
+        "id": 75035743
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            374
+          ],
+          [
+            53,
+            427
+          ]
+        ],
+        "id": 75035742
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 75035741
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            374
+          ],
+          [
+            159,
+            427
+          ]
+        ],
+        "id": 75035740
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            374
+          ],
+          [
+            212,
+            427
+          ]
+        ],
+        "id": 75035739
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            427
+          ],
+          [
+            53,
+            479
+          ]
+        ],
+        "id": 75035738
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            427
+          ],
+          [
+            106,
+            479
+          ]
+        ],
+        "id": 75035737
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 38
+  },
+  {
+    "image_name": "20191023_15374500010150.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20191023_15374500010150.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 0,
+    "num_non_hazards": 25,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74926073
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74926072
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74926071
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74926070
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74926069
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74926068
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 74926067
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74926066
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74926065
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 74926064
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            254,
+            234
+          ],
+          [
+            288,
+            268
+          ]
+        ],
+        "id": 74926063
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74926062
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74926061
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74926060
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 74926059
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 74926058
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74926057
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74926056
+      },
+      {
+        "class": "weed",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 74926055
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 74926054
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 74926053
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 74926052
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            159,
+            321
+          ],
+          [
+            212,
+            374
+          ]
+        ],
+        "id": 74926051
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            374
+          ],
+          [
+            53,
+            427
+          ]
+        ],
+        "id": 74926050
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 74926049
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 25
+  },
+  {
+    "image_name": "20201006_14591200000490.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20201006_14591200000490.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 1,
+    "num_non_hazards": 11,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [
+      {
+        "class": "trafficsign",
+        "bbox": [
+          [
+            304,
+            0
+          ],
+          [
+            364,
+            60
+          ]
+        ],
+        "id": 74894912
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74894923
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74894922
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74894921
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74894920
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74894919
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74894918
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74894917
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74894916
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74894915
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74894914
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 74894913
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 12
+  },
+  {
+    "image_name": "20201006_15025900001448.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20201006_15025900001448.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 9,
+    "num_informational": 0,
+    "num_non_hazards": 23,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "column",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74991460
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74991445
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74991443
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            689,
+            321
+          ],
+          [
+            742,
+            374
+          ]
+        ],
+        "id": 74991440
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            742,
+            321
+          ],
+          [
+            795,
+            374
+          ]
+        ],
+        "id": 74991438
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            689,
+            374
+          ],
+          [
+            742,
+            427
+          ]
+        ],
+        "id": 74991436
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            742,
+            374
+          ],
+          [
+            795,
+            427
+          ]
+        ],
+        "id": 74991434
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            689,
+            427
+          ],
+          [
+            742,
+            479
+          ]
+        ],
+        "id": 74991432
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            742,
+            427
+          ],
+          [
+            795,
+            479
+          ]
+        ],
+        "id": 74991431
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74991461
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74991459
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74991458
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 74991457
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74991456
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74991455
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74991454
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74991453
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74991452
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 74991451
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74991450
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            530,
+            268
+          ],
+          [
+            583,
+            321
+          ]
+        ],
+        "id": 74991449
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            583,
+            268
+          ],
+          [
+            636,
+            321
+          ]
+        ],
+        "id": 74991448
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            636,
+            268
+          ],
+          [
+            689,
+            321
+          ]
+        ],
+        "id": 74991447
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74991446
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74991444
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            636,
+            321
+          ],
+          [
+            689,
+            374
+          ]
+        ],
+        "id": 74991442
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            689,
+            321
+          ],
+          [
+            742,
+            374
+          ]
+        ],
+        "id": 74991441
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            321
+          ],
+          [
+            795,
+            374
+          ]
+        ],
+        "id": 74991439
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            321
+          ],
+          [
+            847,
+            374
+          ]
+        ],
+        "id": 74991437
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            374
+          ],
+          [
+            795,
+            427
+          ]
+        ],
+        "id": 74991435
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            374
+          ],
+          [
+            847,
+            427
+          ]
+        ],
+        "id": 74991433
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            427
+          ],
+          [
+            847,
+            479
+          ]
+        ],
+        "id": 74991430
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 32
+  },
+  {
+    "image_name": "20201006_15095300000735.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20201006_15095300000735.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 2,
+    "num_non_hazards": 3,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [
+      {
+        "class": "trafficsign",
+        "bbox": [
+          [
+            364,
+            0
+          ],
+          [
+            424,
+            60
+          ]
+        ],
+        "id": 75119155
+      },
+      {
+        "class": "trafficsign",
+        "bbox": [
+          [
+            424,
+            0
+          ],
+          [
+            484,
+            60
+          ]
+        ],
+        "id": 75119154
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 75119158
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 75119157
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 75119156
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 5
+  },
+  {
+    "image_name": "20201116_16044300002010.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20201116_16044300002010.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 11,
+    "num_informational": 0,
+    "num_non_hazards": 3,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74922297
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74922296
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74922295
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74922294
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74922293
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74922292
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74922291
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74922290
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74922289
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74922288
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            390,
+            234
+          ],
+          [
+            424,
+            268
+          ]
+        ],
+        "id": 74922287
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74922299
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74922298
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74922286
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 14
+  },
+  {
+    "image_name": "20201116_16074600003240.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20201116_16074600003240.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 34,
+    "num_informational": 3,
+    "num_non_hazards": 5,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74947120
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74947118
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74947115
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74947113
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74947112
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74947111
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74947110
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74947109
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74947108
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74947107
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 74947102
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74947101
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74947100
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74947099
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74947098
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74947097
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74947096
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            220,
+            234
+          ],
+          [
+            254,
+            268
+          ]
+        ],
+        "id": 74947095
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74947094
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74947093
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 74947092
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74947091
+      },
+      {
+        "class": "trafficcone",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74947090
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74947089
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74947088
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74947087
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            159,
+            268
+          ],
+          [
+            212,
+            321
+          ]
+        ],
+        "id": 74947086
+      },
+      {
+        "class": "creature",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 74947085
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            212,
+            268
+          ],
+          [
+            265,
+            321
+          ]
+        ],
+        "id": 74947084
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            53,
+            321
+          ],
+          [
+            106,
+            374
+          ]
+        ],
+        "id": 74947083
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            106,
+            321
+          ],
+          [
+            159,
+            374
+          ]
+        ],
+        "id": 74947082
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            159,
+            321
+          ],
+          [
+            212,
+            374
+          ]
+        ],
+        "id": 74947081
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            53,
+            374
+          ],
+          [
+            106,
+            427
+          ]
+        ],
+        "id": 74947080
+      },
+      {
+        "class": "vehicle",
+        "bbox": [
+          [
+            106,
+            374
+          ],
+          [
+            159,
+            427
+          ]
+        ],
+        "id": 74947079
+      }
+    ],
+    "informational_objects": [
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74947106
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74947104
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            288,
+            200
+          ],
+          [
+            322,
+            234
+          ]
+        ],
+        "id": 74947103
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            356,
+            166
+          ],
+          [
+            390,
+            200
+          ]
+        ],
+        "id": 74947119
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            390,
+            166
+          ],
+          [
+            424,
+            200
+          ]
+        ],
+        "id": 74947117
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74947116
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74947114
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            254,
+            200
+          ],
+          [
+            288,
+            234
+          ]
+        ],
+        "id": 74947105
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 42
+  },
+  {
+    "image_name": "20210712_15454700000550.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20210712_15454700000550.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": true,
+    "has_critical_hazard": true,
+    "num_critical_hazards": 13,
+    "num_informational": 0,
+    "num_non_hazards": 5,
+    "num_unknown": 0,
+    "critical_hazards": [
+      {
+        "class": "column",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74925380
+      },
+      {
+        "class": "column",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74925379
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74925378
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74925377
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74925375
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74925374
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74925373
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            636,
+            268
+          ],
+          [
+            689,
+            321
+          ]
+        ],
+        "id": 74925369
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            689,
+            268
+          ],
+          [
+            742,
+            321
+          ]
+        ],
+        "id": 74925368
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            742,
+            268
+          ],
+          [
+            795,
+            321
+          ]
+        ],
+        "id": 74925367
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            795,
+            268
+          ],
+          [
+            847,
+            321
+          ]
+        ],
+        "id": 74925366
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            742,
+            321
+          ],
+          [
+            795,
+            374
+          ]
+        ],
+        "id": 74925364
+      },
+      {
+        "class": "wall",
+        "bbox": [
+          [
+            795,
+            321
+          ],
+          [
+            847,
+            374
+          ]
+        ],
+        "id": 74925363
+      }
+    ],
+    "informational_objects": [],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            220,
+            200
+          ],
+          [
+            254,
+            234
+          ]
+        ],
+        "id": 74925376
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            268
+          ],
+          [
+            53,
+            321
+          ]
+        ],
+        "id": 74925372
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            53,
+            268
+          ],
+          [
+            106,
+            321
+          ]
+        ],
+        "id": 74925371
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            106,
+            268
+          ],
+          [
+            159,
+            321
+          ]
+        ],
+        "id": 74925370
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            0,
+            321
+          ],
+          [
+            53,
+            374
+          ]
+        ],
+        "id": 74925365
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 18
+  },
+  {
+    "image_name": "20430153100007470.png",
+    "image_path": "/Users/prabhavsingh/Documents/CLASSES/Fall2025/NAVAID/MILESTONE1/GUIDANCE_METRICS/data/Images/20430153100007470.png",
+    "width": 848,
+    "height": 480,
+    "has_hazard": false,
+    "has_critical_hazard": false,
+    "num_critical_hazards": 0,
+    "num_informational": 15,
+    "num_non_hazards": 3,
+    "num_unknown": 0,
+    "critical_hazards": [],
+    "informational_objects": [
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            424,
+            166
+          ],
+          [
+            458,
+            200
+          ]
+        ],
+        "id": 74884867
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            458,
+            166
+          ],
+          [
+            492,
+            200
+          ]
+        ],
+        "id": 74884866
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            492,
+            166
+          ],
+          [
+            526,
+            200
+          ]
+        ],
+        "id": 74884865
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            526,
+            166
+          ],
+          [
+            560,
+            200
+          ]
+        ],
+        "id": 74884864
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            390,
+            200
+          ],
+          [
+            424,
+            234
+          ]
+        ],
+        "id": 74884862
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            424,
+            200
+          ],
+          [
+            458,
+            234
+          ]
+        ],
+        "id": 74884861
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            458,
+            200
+          ],
+          [
+            492,
+            234
+          ]
+        ],
+        "id": 74884860
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            492,
+            200
+          ],
+          [
+            526,
+            234
+          ]
+        ],
+        "id": 74884859
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            526,
+            200
+          ],
+          [
+            560,
+            234
+          ]
+        ],
+        "id": 74884858
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            560,
+            200
+          ],
+          [
+            594,
+            234
+          ]
+        ],
+        "id": 74884857
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            594,
+            200
+          ],
+          [
+            628,
+            234
+          ]
+        ],
+        "id": 74884856
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            492,
+            234
+          ],
+          [
+            526,
+            268
+          ]
+        ],
+        "id": 74884855
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            526,
+            234
+          ],
+          [
+            560,
+            268
+          ]
+        ],
+        "id": 74884854
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            560,
+            234
+          ],
+          [
+            594,
+            268
+          ]
+        ],
+        "id": 74884853
+      },
+      {
+        "class": "zebracrossing",
+        "bbox": [
+          [
+            594,
+            234
+          ],
+          [
+            628,
+            268
+          ]
+        ],
+        "id": 74884852
+      }
+    ],
+    "non_hazards": [
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            288,
+            166
+          ],
+          [
+            322,
+            200
+          ]
+        ],
+        "id": 74884869
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            166
+          ],
+          [
+            356,
+            200
+          ]
+        ],
+        "id": 74884868
+      },
+      {
+        "class": "bump",
+        "bbox": [
+          [
+            322,
+            200
+          ],
+          [
+            356,
+            234
+          ]
+        ],
+        "id": 74884863
+      }
+    ],
+    "unknown_objects": [],
+    "total_objects": 18
+  }
+]

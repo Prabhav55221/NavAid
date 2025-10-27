@@ -1,0 +1,130 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 75119158,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:04:50.508Z",
+            "updatedAt": "2023-10-18T12:04:50.508Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        166
+                    ],
+                    [
+                        492,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75119157,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:04:50.508Z",
+            "updatedAt": "2023-10-18T12:04:50.508Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        742,
+                        268
+                    ],
+                    [
+                        795,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75119156,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:04:50.507Z",
+            "updatedAt": "2023-10-18T12:04:50.507Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        795,
+                        268
+                    ],
+                    [
+                        847,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75119155,
+            "classId": 6488154,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:04:50.507Z",
+            "updatedAt": "2023-10-18T12:04:50.507Z",
+            "tags": [],
+            "classTitle": "trafficsign",
+            "points": {
+                "exterior": [
+                    [
+                        364,
+                        0
+                    ],
+                    [
+                        424,
+                        60
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 75119154,
+            "classId": 6488154,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T12:04:50.507Z",
+            "updatedAt": "2023-10-18T12:04:50.507Z",
+            "tags": [],
+            "classTitle": "trafficsign",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        0
+                    ],
+                    [
+                        484,
+                        60
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,610 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 74903142,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.920Z",
+            "updatedAt": "2023-10-18T11:15:52.920Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903141,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.920Z",
+            "updatedAt": "2023-10-18T11:15:52.920Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        166
+                    ],
+                    [
+                        390,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903140,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.919Z",
+            "updatedAt": "2023-10-18T11:15:52.919Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        166
+                    ],
+                    [
+                        424,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903139,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.919Z",
+            "updatedAt": "2023-10-18T11:15:52.919Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        166
+                    ],
+                    [
+                        458,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903138,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.918Z",
+            "updatedAt": "2023-10-18T11:15:52.918Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        166
+                    ],
+                    [
+                        492,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903137,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.918Z",
+            "updatedAt": "2023-10-18T11:15:52.918Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        166
+                    ],
+                    [
+                        526,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903136,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.917Z",
+            "updatedAt": "2023-10-18T11:15:52.917Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        200
+                    ],
+                    [
+                        356,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903135,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.917Z",
+            "updatedAt": "2023-10-18T11:15:52.917Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        200
+                    ],
+                    [
+                        390,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903134,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.916Z",
+            "updatedAt": "2023-10-18T11:15:52.916Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        200
+                    ],
+                    [
+                        424,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903133,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.916Z",
+            "updatedAt": "2023-10-18T11:15:52.916Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        200
+                    ],
+                    [
+                        458,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903132,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.915Z",
+            "updatedAt": "2023-10-18T11:15:52.915Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        234
+                    ],
+                    [
+                        322,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903131,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.914Z",
+            "updatedAt": "2023-10-18T11:15:52.914Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        234
+                    ],
+                    [
+                        356,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903130,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.914Z",
+            "updatedAt": "2023-10-18T11:15:52.914Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        234
+                    ],
+                    [
+                        390,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903129,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.913Z",
+            "updatedAt": "2023-10-18T11:15:52.913Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        234
+                    ],
+                    [
+                        424,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903128,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.912Z",
+            "updatedAt": "2023-10-18T11:15:52.912Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        268
+                    ],
+                    [
+                        53,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903127,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.912Z",
+            "updatedAt": "2023-10-18T11:15:52.912Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        268
+                    ],
+                    [
+                        106,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903126,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.911Z",
+            "updatedAt": "2023-10-18T11:15:52.911Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        321
+                    ],
+                    [
+                        53,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903125,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.910Z",
+            "updatedAt": "2023-10-18T11:15:52.910Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        321
+                    ],
+                    [
+                        106,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903124,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.910Z",
+            "updatedAt": "2023-10-18T11:15:52.910Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        321
+                    ],
+                    [
+                        159,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903123,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.909Z",
+            "updatedAt": "2023-10-18T11:15:52.909Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        374
+                    ],
+                    [
+                        53,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903122,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.909Z",
+            "updatedAt": "2023-10-18T11:15:52.909Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        374
+                    ],
+                    [
+                        106,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903121,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.908Z",
+            "updatedAt": "2023-10-18T11:15:52.908Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        374
+                    ],
+                    [
+                        159,
+                        427
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903120,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.907Z",
+            "updatedAt": "2023-10-18T11:15:52.907Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        427
+                    ],
+                    [
+                        53,
+                        479
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903119,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.906Z",
+            "updatedAt": "2023-10-18T11:15:52.906Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        427
+                    ],
+                    [
+                        106,
+                        479
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74903118,
+            "classId": 6488155,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:15:52.905Z",
+            "updatedAt": "2023-10-18T11:15:52.905Z",
+            "tags": [],
+            "classTitle": "trafficcone",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        427
+                    ],
+                    [
+                        159,
+                        479
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

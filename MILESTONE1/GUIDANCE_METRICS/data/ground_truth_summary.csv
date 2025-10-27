@@ -1,0 +1,25 @@
+image_name,has_hazard,num_critical_hazards,critical_classes,num_informational,num_non_hazards,total_objects
+191209_15153700019170.png,True,4,trafficcone,0,0,4
+191209_15293600011610.png,True,2,creature,0,14,16
+191231_14393900006480.png,True,23,"column, trafficcone, vehicle",0,7,30
+200425_17443800001080.png,False,0,None,0,11,11
+200425_17552200000510.png,True,16,"vehicle, wall",0,0,16
+200430155600004500.png,False,0,None,0,29,29
+200430155600008160.png,True,11,trafficcone,0,18,29
+200430_15025200000180.png,True,27,wall,0,1,28
+200430_15090700000030.png,True,25,trafficcone,0,0,25
+200430_15135500001050.png,True,3,column,0,6,9
+200430_15155400002580.png,True,8,"creature, vehicle",2,4,14
+200430_15193900000870.png,True,13,"vehicle, wall",0,0,13
+200430_15193900002670.png,True,1,column,8,5,14
+200508_13340300000750.png,True,12,column,0,24,36
+200508_13460200003690.png,False,0,None,0,12,12
+200508_14194800007650.png,True,6,trafficcone,0,32,38
+20191023_15374500010150.png,False,0,None,0,25,25
+20201006_14591200000490.png,False,0,None,1,11,12
+20201006_15025900001448.png,True,9,column,0,23,32
+20201006_15095300000735.png,False,0,None,2,3,5
+20201116_16044300002010.png,True,11,"creature, vehicle, wall",0,3,14
+20201116_16074600003240.png,True,34,"column, creature, trafficcone, vehicle, wall",3,5,42
+20210712_15454700000550.png,True,13,"column, wall",0,5,18
+20430153100007470.png,False,0,None,15,3,18

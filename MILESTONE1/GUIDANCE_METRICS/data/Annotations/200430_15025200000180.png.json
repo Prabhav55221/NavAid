@@ -1,0 +1,682 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 480,
+        "width": 848
+    },
+    "objects": [
+        {
+            "id": 74956905,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        166
+                    ],
+                    [
+                        322,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956904,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        166
+                    ],
+                    [
+                        356,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956903,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        166
+                    ],
+                    [
+                        390,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956902,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        166
+                    ],
+                    [
+                        424,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956901,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        166
+                    ],
+                    [
+                        458,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956900,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        458,
+                        166
+                    ],
+                    [
+                        492,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956899,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        492,
+                        166
+                    ],
+                    [
+                        526,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956898,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        526,
+                        166
+                    ],
+                    [
+                        560,
+                        200
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956897,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.972Z",
+            "updatedAt": "2023-10-18T11:27:56.972Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        200
+                    ],
+                    [
+                        254,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956896,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        200
+                    ],
+                    [
+                        288,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956895,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        200
+                    ],
+                    [
+                        322,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956894,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        200
+                    ],
+                    [
+                        356,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956893,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        356,
+                        200
+                    ],
+                    [
+                        390,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956892,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        390,
+                        200
+                    ],
+                    [
+                        424,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956891,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.971Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        424,
+                        200
+                    ],
+                    [
+                        458,
+                        234
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956890,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.971Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        220,
+                        234
+                    ],
+                    [
+                        254,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956889,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        254,
+                        234
+                    ],
+                    [
+                        288,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956888,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        288,
+                        234
+                    ],
+                    [
+                        322,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956887,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        322,
+                        234
+                    ],
+                    [
+                        356,
+                        268
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956886,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        268
+                    ],
+                    [
+                        53,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956885,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        268
+                    ],
+                    [
+                        106,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956884,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        268
+                    ],
+                    [
+                        159,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956883,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        159,
+                        268
+                    ],
+                    [
+                        212,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956882,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.970Z",
+            "updatedAt": "2023-10-18T11:27:56.970Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        212,
+                        268
+                    ],
+                    [
+                        265,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956881,
+            "classId": 6488145,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.969Z",
+            "updatedAt": "2023-10-18T11:27:56.969Z",
+            "tags": [],
+            "classTitle": "bump",
+            "points": {
+                "exterior": [
+                    [
+                        795,
+                        268
+                    ],
+                    [
+                        847,
+                        321
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956880,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.969Z",
+            "updatedAt": "2023-10-18T11:27:56.969Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        321
+                    ],
+                    [
+                        53,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956879,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.969Z",
+            "updatedAt": "2023-10-18T11:27:56.969Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        53,
+                        321
+                    ],
+                    [
+                        106,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 74956878,
+            "classId": 6488151,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-10-18T11:27:56.969Z",
+            "updatedAt": "2023-10-18T11:27:56.969Z",
+            "tags": [],
+            "classTitle": "wall",
+            "points": {
+                "exterior": [
+                    [
+                        106,
+                        321
+                    ],
+                    [
+                        159,
+                        374
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
