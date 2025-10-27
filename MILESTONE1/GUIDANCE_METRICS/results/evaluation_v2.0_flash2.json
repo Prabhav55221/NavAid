@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "evaluation_timestamp": "2025-10-27T17:33:33.096677+00:00",
+    "num_images_evaluated": 24
+  },
+  "detection_performance": {
+    "binary_metrics": {
+      "tp": 14,
+      "fp": 4,
+      "fn": 3,
+      "tn": 3,
+      "precision": 0.7778,
+      "recall": 0.8235,
+      "f1": 0.8,
+      "accuracy": 0.7083,
+      "chmr": 0.1765
+    },
+    "confidence_stats": {
+      "mean_confidence": 0.8658,
+      "mean_confidence_correct": 0.87,
+      "mean_confidence_incorrect": 0.8557,
+      "std_confidence": 0.067,
+      "num_correct": 17,
+      "num_incorrect": 7
+    },
+    "type_metrics": {
+      "bicycle": {
+        "type": "bicycle",
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "column": {
+        "type": "column",
+        "tp": 2,
+        "fp": 2,
+        "fn": 5,
+        "ground_truth_count": 7,
+        "precision": 0.5,
+        "recall": 0.2857,
+        "f1": 0.3636
+      },
+      "creature": {
+        "type": "creature",
+        "tp": 1,
+        "fp": 1,
+        "fn": 3,
+        "ground_truth_count": 4,
+        "precision": 0.5,
+        "recall": 0.25,
+        "f1": 0.3333
+      },
+      "openhole": {
+        "type": "openhole",
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "trafficcone": {
+        "type": "trafficcone",
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "ground_truth_count": 6,
+        "precision": 0.8571,
+        "recall": 1.0,
+        "f1": 0.9231
+      },
+      "uneven": {
+        "type": "uneven",
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "vehicle": {
+        "type": "vehicle",
+        "tp": 1,
+        "fp": 1,
+        "fn": 5,
+        "ground_truth_count": 6,
+        "precision": 0.5,
+        "recall": 0.1667,
+        "f1": 0.25
+      },
+      "wall": {
+        "type": "wall",
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "ground_truth_count": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "error_analysis": {
+      "total_errors": 7,
+      "false_positives": 4,
+      "false_negatives": 3,
+      "error_cases": [
+        {
+          "image_name": "200425_17443800001080.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "vehicle",
+            "trafficcone"
+          ],
+          "confidence": 0.75,
+          "notes": "the vehicle is parked on the left, and a cone is near it."
+        },
+        {
+          "image_name": "200430_15135500001050.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.82,
+          "notes": ""
+        },
+        {
+          "image_name": "200508_13460200003690.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "pole"
+          ],
+          "confidence": 0.95,
+          "notes": "pole is large and difficult to avoid."
+        },
+        {
+          "image_name": "20191023_15374500010150.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "uneven",
+            "openhole"
+          ],
+          "confidence": 0.85,
+          "notes": "manhole cover is slightly raised and could be a tripping hazard"
+        },
+        {
+          "image_name": "20201006_14591200000490.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "person"
+          ],
+          "confidence": 0.85,
+          "notes": "be aware of the pedestrians crossing the path."
+        },
+        {
+          "image_name": "20201006_15025900001448.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.82,
+          "notes": ""
+        },
+        {
+          "image_name": "20210712_15454700000550.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall"
+          ],
+          "pred_types": [],
+          "confidence": 0.95,
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "latency_performance": {
+    "aggregate_stats": {
+      "mean": 6632.9,
+      "median": 6594.98,
+      "stdev": 2129.21,
+      "min": 3070.78,
+      "max": 11238.82,
+      "p50": 6753.51,
+      "p95": 10136.44,
+      "p99": 11238.82
+    },
+    "per_image_count": 0,
+    "config": {
+      "model": "gemini-2.0-flash",
+      "rpm_limit": 10,
+      "max_concurrency": 1,
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "prompt_version": "2.0"
+    }
+  }
+}

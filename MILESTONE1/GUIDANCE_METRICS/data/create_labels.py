@@ -114,6 +114,9 @@ class GroundTruthLabeler:
         has_hazard = len(critical_hazards) > 0
         has_critical_hazard = has_hazard  # Same for now
 
+        # Count unique hazard types
+        unique_critical_types = len(set(h['class'] for h in critical_hazards))
+
         return {
             'image_name': image_name,
             'image_path': str(image_path),
@@ -121,7 +124,8 @@ class GroundTruthLabeler:
             'height': annotation['size']['height'],
             'has_hazard': has_hazard,
             'has_critical_hazard': has_critical_hazard,
-            'num_critical_hazards': len(critical_hazards),
+            'num_critical_hazard_types': unique_critical_types,  # UNIQUE types
+            'num_critical_hazard_instances': len(critical_hazards),  # Total instances
             'num_informational': len(informational_objects),
             'num_non_hazards': len(non_hazards),
             'num_unknown': len(unknown_objects),
@@ -183,8 +187,9 @@ class GroundTruthLabeler:
             writer.writerow([
                 'image_name',
                 'has_hazard',
-                'num_critical_hazards',
-                'critical_classes',
+                'num_hazard_types',
+                'num_hazard_instances',
+                'hazard_breakdown',
                 'num_informational',
                 'num_non_hazards',
                 'total_objects'
@@ -192,13 +197,21 @@ class GroundTruthLabeler:
 
             # Rows
             for label in labels:
-                critical_classes = ', '.join(sorted(set(h['class'] for h in label['critical_hazards'])))
+                # Count each class type
+                class_counts = {}
+                for h in label['critical_hazards']:
+                    cls = h['class']
+                    class_counts[cls] = class_counts.get(cls, 0) + 1
+
+                # Format as "vehicle:5, wall:2"
+                critical_summary = ', '.join([f"{cls}:{count}" for cls, count in sorted(class_counts.items())])
 
                 writer.writerow([
                     label['image_name'],
                     label['has_hazard'],
-                    label['num_critical_hazards'],
-                    critical_classes if critical_classes else 'None',
+                    label['num_critical_hazard_types'],
+                    label['num_critical_hazard_instances'],
+                    critical_summary if critical_summary else 'None',
                     label['num_informational'],
                     label['num_non_hazards'],
                     label['total_objects']
@@ -216,7 +229,7 @@ class GroundTruthLabeler:
         images_with_hazards = sum(1 for l in labels if l['has_hazard'])
         images_without_hazards = total_images - images_with_hazards
 
-        total_critical = sum(l['num_critical_hazards'] for l in labels)
+        total_critical = sum(l['num_critical_hazard_instances'] for l in labels)
         total_informational = sum(l['num_informational'] for l in labels)
         total_non_hazards = sum(l['num_non_hazards'] for l in labels)
 

@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "evaluation_timestamp": "2025-10-27T17:04:47.989141+00:00",
+    "num_images_evaluated": 24
+  },
+  "detection_performance": {
+    "binary_metrics": {
+      "tp": 17,
+      "fp": 6,
+      "fn": 0,
+      "tn": 1,
+      "precision": 0.7391,
+      "recall": 1.0,
+      "f1": 0.85,
+      "accuracy": 0.75,
+      "chmr": 0.0
+    },
+    "confidence_stats": {
+      "mean_confidence": 0.9033,
+      "mean_confidence_correct": 0.9044,
+      "mean_confidence_incorrect": 0.9,
+      "std_confidence": 0.0324,
+      "num_correct": 18,
+      "num_incorrect": 6
+    },
+    "type_metrics": {
+      "barrier": {
+        "type": "barrier",
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "bicycle": {
+        "type": "bicycle",
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "bollard": {
+        "type": "bollard",
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "column": {
+        "type": "column",
+        "tp": 5,
+        "fp": 4,
+        "fn": 2,
+        "ground_truth_count": 7,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1": 0.625
+      },
+      "crack": {
+        "type": "crack",
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "creature": {
+        "type": "creature",
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "ground_truth_count": 4,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      "curb": {
+        "type": "curb",
+        "tp": 0,
+        "fp": 6,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "signpost": {
+        "type": "signpost",
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "trafficcone": {
+        "type": "trafficcone",
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "ground_truth_count": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "uneven": {
+        "type": "uneven",
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "ground_truth_count": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "vehicle": {
+        "type": "vehicle",
+        "tp": 1,
+        "fp": 0,
+        "fn": 5,
+        "ground_truth_count": 6,
+        "precision": 1.0,
+        "recall": 0.1667,
+        "f1": 0.2857
+      },
+      "wall": {
+        "type": "wall",
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "ground_truth_count": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "error_analysis": {
+      "total_errors": 6,
+      "false_positives": 6,
+      "false_negatives": 0,
+      "error_cases": [
+        {
+          "image_name": "200425_17443800001080.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "barrier",
+            "curb"
+          ],
+          "confidence": 0.9,
+          "notes": "path bordered by concrete blocks and curb on right"
+        },
+        {
+          "image_name": "200430155600004500.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "curb",
+            "crack"
+          ],
+          "confidence": 0.9,
+          "notes": "The paved path has many cracks; the curb defines the left edge of the path."
+        },
+        {
+          "image_name": "200508_13460200003690.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "pole",
+            "curb"
+          ],
+          "confidence": 0.95,
+          "notes": "The pole significantly narrows the path on the right."
+        },
+        {
+          "image_name": "20201006_14591200000490.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "person"
+          ],
+          "confidence": 0.9,
+          "notes": "Path appears wide enough to navigate around the person."
+        },
+        {
+          "image_name": "20201006_15095300000735.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "signpost",
+            "bollard"
+          ],
+          "confidence": 0.85,
+          "notes": "Path narrows around the central tree and bollard."
+        },
+        {
+          "image_name": "20430153100007470.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "pole",
+            "curb"
+          ],
+          "confidence": 0.9,
+          "notes": "The pole significantly narrows the path to the crosswalk."
+        }
+      ]
+    }
+  },
+  "latency_performance": {
+    "aggregate_stats": {
+      "mean": 15851.04,
+      "median": 14359.19,
+      "stdev": 5617.57,
+      "min": 6928.26,
+      "max": 29798.96,
+      "p50": 14507.37,
+      "p95": 25581.55,
+      "p99": 29798.96
+    },
+    "per_image_count": 0,
+    "config": {
+      "model": "gemini-2.5-flash",
+      "rpm_limit": 10,
+      "max_concurrency": 2,
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "prompt_version": "2.0"
+    }
+  }
+}

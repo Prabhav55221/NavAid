@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "evaluation_timestamp": "2025-10-27T17:22:38.841904+00:00",
+    "num_images_evaluated": 24
+  },
+  "detection_performance": {
+    "binary_metrics": {
+      "tp": 11,
+      "fp": 3,
+      "fn": 6,
+      "tn": 4,
+      "precision": 0.7857,
+      "recall": 0.6471,
+      "f1": 0.7097,
+      "accuracy": 0.625,
+      "chmr": 0.3529
+    },
+    "confidence_stats": {
+      "mean_confidence": 0.9075,
+      "mean_confidence_correct": 0.9207,
+      "mean_confidence_incorrect": 0.8856,
+      "std_confidence": 0.0471,
+      "num_correct": 15,
+      "num_incorrect": 9
+    },
+    "type_metrics": {
+      "column": {
+        "type": "column",
+        "tp": 0,
+        "fp": 1,
+        "fn": 7,
+        "ground_truth_count": 7,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "creature": {
+        "type": "creature",
+        "tp": 2,
+        "fp": 1,
+        "fn": 2,
+        "ground_truth_count": 4,
+        "precision": 0.6667,
+        "recall": 0.5,
+        "f1": 0.5714
+      },
+      "trafficcone": {
+        "type": "trafficcone",
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "ground_truth_count": 6,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "vehicle": {
+        "type": "vehicle",
+        "tp": 2,
+        "fp": 3,
+        "fn": 4,
+        "ground_truth_count": 6,
+        "precision": 0.4,
+        "recall": 0.3333,
+        "f1": 0.3636
+      },
+      "wall": {
+        "type": "wall",
+        "tp": 0,
+        "fp": 0,
+        "fn": 6,
+        "ground_truth_count": 6,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "error_analysis": {
+      "total_errors": 9,
+      "false_positives": 3,
+      "false_negatives": 6,
+      "error_cases": [
+        {
+          "image_name": "191209_15293600011610.png",
+          "error_type": "FN",
+          "gt_types": [
+            "creature",
+            "creature"
+          ],
+          "pred_types": [],
+          "confidence": 0.85,
+          "notes": "person is walking in the same direction, not obstructing path."
+        },
+        {
+          "image_name": "200425_17443800001080.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "vehicle"
+          ],
+          "confidence": 0.85,
+          "notes": "car parked on sidewalk, reducing path width."
+        },
+        {
+          "image_name": "200430_15135500001050.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.95,
+          "notes": "yellow railing is on the sidewalk edge, not obstructing path."
+        },
+        {
+          "image_name": "200430_15193900002670.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.8,
+          "notes": "pedestrian crossing is far ahead and not an immediate obstruction."
+        },
+        {
+          "image_name": "200508_13340300000750.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.95,
+          "notes": "wooden structure on left is off the walking path."
+        },
+        {
+          "image_name": "20201006_14591200000490.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "person",
+            "vehicle"
+          ],
+          "confidence": 0.82,
+          "notes": "two people walking across path, one car parked on left side of sidewalk."
+        },
+        {
+          "image_name": "20201006_15025900001448.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column",
+            "column"
+          ],
+          "pred_types": [],
+          "confidence": 0.95,
+          "notes": ""
+        },
+        {
+          "image_name": "20210712_15454700000550.png",
+          "error_type": "FN",
+          "gt_types": [
+            "column",
+            "column",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall",
+            "wall"
+          ],
+          "pred_types": [],
+          "confidence": 0.95,
+          "notes": ""
+        },
+        {
+          "image_name": "20430153100007470.png",
+          "error_type": "FP",
+          "gt_types": [],
+          "pred_types": [
+            "vehicle"
+          ],
+          "confidence": 0.85,
+          "notes": "car occupies about half the sidewalk width."
+        }
+      ]
+    }
+  },
+  "latency_performance": {
+    "aggregate_stats": {
+      "mean": 6392.54,
+      "median": 6621.58,
+      "stdev": 1127.86,
+      "min": 1622.35,
+      "max": 7565.34,
+      "p50": 6644.91,
+      "p95": 7395.42,
+      "p99": 7565.34
+    },
+    "per_image_count": 0,
+    "config": {
+      "model": "gemini-2.5-flash-lite",
+      "rpm_limit": 10,
+      "max_concurrency": 1,
+      "temperature": 0.2,
+      "top_p": 0.8,
+      "prompt_version": "2.0"
+    }
+  }
+}

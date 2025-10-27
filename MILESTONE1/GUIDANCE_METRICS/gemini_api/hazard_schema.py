@@ -4,7 +4,7 @@ from typing import List
 
 from pydantic import BaseModel, Field, ValidationError, confloat, conlist
 
-PROMPT_VERSION = "1.5"  # keep in sync with prompt.md
+PROMPT_VERSION = "2.0"  # keep in sync with prompt.md
 
 ALLOWED_TYPES = {
     "trafficcone","person","vehicle","bicycle","motorcycle","stroller","barrier",
@@ -25,12 +25,12 @@ class HazardOutput(BaseModel):
     num_hazards: int = Field(ge=0)
     # v2: use min_length instead of min_items
     hazard_types: conlist(str, min_length=0)
-    one_sentence: str = Field(min_length=1, max_length=140)
-    evasive_suggestion: str = Field(min_length=1, max_length=160)
+    one_sentence: str = Field(min_length=1, max_length=200)  # v2.0: increased from 140
+    evasive_suggestion: str = Field(min_length=1, max_length=250)  # v2.0: increased from 160
     bearing: str
     proximity: str
     confidence: confloat(ge=0.0, le=1.0)
-    notes: str
+    notes: str = Field(max_length=300)  # v2.0: explicit limit for notes (~40 words)
 
     def normalized(self) -> "HazardOutput":
         d = self.model_dump()
