@@ -18,7 +18,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from data import download_datasets, preprocess_datasets, load_samples
 from models import BaseTTS, create_model, list_available_models
-from eval import compute_all_metrics, evaluate_wer_for_model, select_and_prepare_mos
+from eval import compute_all_metrics, evaluate_wer_for_model, select_and_prepare_mos, generate_all_plots
 import soundfile as sf
 import json
 from tqdm import tqdm
@@ -328,15 +328,12 @@ class TTSEvaluationPipeline:
         self.logger.info("STAGE 6: Visualization")
         self.logger.info("=" * 60)
 
-        # This will be implemented in Day 4
-        self.logger.warning("⚠ Visualization not yet implemented (Day 4)")
-        self.logger.info("   Plots to generate:")
-        self.logger.info("   - RTF comparison (bar chart)")
-        self.logger.info("   - WER comparison (bar chart)")
-        self.logger.info("   - Latency distribution (box plot)")
-        self.logger.info("   - Footprint comparison (grouped bar)")
+        metrics_path = self.results_dir / "metrics.json"
+        plots_dir = self.results_dir / "plots"
 
-        return True
+        success = generate_all_plots(metrics_path, plots_dir)
+
+        return success
 
     def run_all(self, n_samples: int = 100, models: Optional[List[str]] = None,
                 skip_existing: bool = False) -> bool:
