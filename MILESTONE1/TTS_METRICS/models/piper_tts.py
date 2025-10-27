@@ -107,22 +107,52 @@ class PiperTTS(BaseTTS):
             raise ValueError("Text cannot be empty")
 
         try:
-            # Synthesize to WAV bytes
-            wav_bytes = io.BytesIO()
-
-            # Use synthesize_stream_raw to get audio samples
+            # Try multiple API methods (piper-tts API varies by version)
             audio_samples = []
-            for audio_chunk in self.voice.synthesize_stream_raw(text):
-                audio_samples.extend(audio_chunk)
 
-            # Convert to numpy array
-            audio = np.array(audio_samples, dtype=np.int16)
+            # Method 1: synthesize_stream_raw (some versions)
+            if hasattr(self.voice, 'synthesize_stream_raw'):
+                for audio_chunk in self.voice.synthesize_stream_raw(text):
+                    audio_samples.extend(audio_chunk)
+
+            # Method 2: synthesize (common method)
+            elif hasattr(self.voice, 'synthesize'):
+                wav_bytes = io.BytesIO()
+                self.voice.synthesize(text, wav_bytes)
+
+                # Read WAV data
+                wav_bytes.seek(0)
+                import wave
+                with wave.open(wav_bytes, 'rb') as wav_file:
+                    sample_rate = wav_file.getframerate()
+                    audio_bytes = wav_file.readframes(wav_file.getnframes())
+                    audio_samples = np.frombuffer(audio_bytes, dtype=np.int16)
+
+            # Method 3: Direct call (if voice is callable)
+            else:
+                # Fallback to __call__
+                wav_bytes = io.BytesIO()
+                self.voice(text, wav_bytes)
+
+                wav_bytes.seek(0)
+                import wave
+                with wave.open(wav_bytes, 'rb') as wav_file:
+                    sample_rate = wav_file.getframerate()
+                    audio_bytes = wav_file.readframes(wav_file.getnframes())
+                    audio_samples = np.frombuffer(audio_bytes, dtype=np.int16)
+
+            # Convert to numpy array if needed
+            if not isinstance(audio_samples, np.ndarray):
+                audio = np.array(audio_samples, dtype=np.int16)
+            else:
+                audio = audio_samples
 
             # Convert to float32 [-1, 1]
             audio = audio.astype(np.float32) / 32768.0
 
             # Get sample rate from voice config
-            sample_rate = self.voice.config.sample_rate
+            if not 'sample_rate' in locals():
+                sample_rate = self.voice.config.sample_rate
 
             # Normalize
             audio = self._normalize_audio(audio)

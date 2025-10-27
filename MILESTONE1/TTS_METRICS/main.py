@@ -17,7 +17,11 @@ PROJECT_ROOT = Path(__file__).parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from data import download_datasets, preprocess_datasets, load_samples
-from models import BaseTTS
+from models import BaseTTS, create_model, list_available_models
+from eval import compute_all_metrics, evaluate_wer_for_model, select_and_prepare_mos
+import soundfile as sf
+import json
+from tqdm import tqdm
 
 
 # Configure logging
@@ -122,16 +126,71 @@ class TTSEvaluationPipeline:
         self.logger.info("STAGE 3: Audio Synthesis")
         self.logger.info("=" * 60)
 
-        # This will be implemented in Day 2-3 when we have model implementations
-        self.logger.warning("⚠ Synthesis not yet implemented (Day 2-3)")
-        self.logger.info("   Models to implement:")
-        self.logger.info("   - coqui_vits_ljspeech")
-        self.logger.info("   - coqui_vits_vctk")
-        self.logger.info("   - coqui_tacotron")
-        self.logger.info("   - piper")
-        self.logger.info("   - espeak")
+        # Load samples
+        samples_path = self.data_dir / "samples.json"
+        if not samples_path.exists():
+            self.logger.error("samples.json not found. Run preprocess first.")
+            return False
 
-        return True
+        samples = load_samples(samples_path)
+        self.logger.info(f"Loaded {len(samples)} test samples")
+
+        # Determine which models to use
+        if models is None:
+            models = list_available_models()
+
+        self.logger.info(f"Models to evaluate: {', '.join(models)}")
+
+        # Synthesize for each model
+        all_success = True
+
+        for model_name in models:
+            self.logger.info(f"\n--- Synthesizing with {model_name} ---")
+
+            try:
+                # Create model
+                model = create_model(model_name, cache_dir=self.models_dir / "cache")
+
+                # Load model
+                self.logger.info(f"Loading {model_name}...")
+                model.load()
+
+                # Create output directory
+                model_output_dir = self.outputs_dir / model_name
+                model_output_dir.mkdir(parents=True, exist_ok=True)
+
+                # Synthesize each sample
+                for sample in tqdm(samples, desc=f"Synthesizing {model_name}"):
+                    sample_id = sample['id']
+                    text = sample['text']
+                    output_path = model_output_dir / f"{sample_id}.wav"
+
+                    # Skip if exists
+                    if skip_existing and output_path.exists():
+                        continue
+
+                    try:
+                        # Synthesize
+                        audio, sr = model.synthesize(text)
+
+                        # Save audio
+                        sf.write(output_path, audio, sr)
+
+                    except Exception as e:
+                        self.logger.warning(f"Failed to synthesize {sample_id}: {e}")
+                        continue
+
+                self.logger.info(f"✓ {model_name} synthesis complete")
+
+                # Unload model to free memory
+                model.unload()
+
+            except Exception as e:
+                self.logger.error(f"✗ {model_name} failed: {e}")
+                all_success = False
+                continue
+
+        return all_success
 
     def run_evaluate(self) -> bool:
         """
@@ -144,12 +203,59 @@ class TTSEvaluationPipeline:
         self.logger.info("STAGE 4: Metric Evaluation")
         self.logger.info("=" * 60)
 
-        # This will be implemented in Day 4 when we have evaluation code
-        self.logger.warning("⚠ Evaluation not yet implemented (Day 4)")
-        self.logger.info("   Metrics to compute:")
-        self.logger.info("   - Real-Time Factor (RTF)")
-        self.logger.info("   - Word Error Rate (WER) via Whisper")
-        self.logger.info("   - Model footprint (disk, RAM, cold start)")
+        # Load samples
+        samples_path = self.data_dir / "samples.json"
+        if not samples_path.exists():
+            self.logger.error("samples.json not found")
+            return False
+
+        samples = load_samples(samples_path)
+        texts = [s['text'] for s in samples]
+
+        # Get list of models to evaluate
+        models = list_available_models()
+        all_metrics = {}
+
+        for model_name in models:
+            self.logger.info(f"\n{'='*60}")
+            self.logger.info(f"Evaluating: {model_name}")
+            self.logger.info(f"{'='*60}")
+
+            try:
+                # Create and load model
+                model = create_model(model_name, cache_dir=self.models_dir / "cache")
+                model.load()
+
+                # Compute all metrics (RTF + footprint)
+                metrics = compute_all_metrics(
+                    model, model_name, texts,
+                    cache_dir=self.models_dir / "cache"
+                )
+
+                # Compute WER
+                self.logger.info(f"Computing WER for {model_name}...")
+                wer_metrics = evaluate_wer_for_model(model, texts, whisper_size="tiny")
+                metrics['wer'] = wer_metrics
+
+                all_metrics[model_name] = metrics
+
+                self.logger.info(f"✓ {model_name} evaluation complete")
+
+                # Unload model
+                model.unload()
+
+            except Exception as e:
+                self.logger.error(f"✗ {model_name} evaluation failed: {e}")
+                import traceback
+                traceback.print_exc()
+                continue
+
+        # Save metrics to JSON
+        metrics_path = self.results_dir / "metrics.json"
+        with open(metrics_path, 'w') as f:
+            json.dump(all_metrics, f, indent=2)
+
+        self.logger.info(f"\n✓ Metrics saved to {metrics_path}")
 
         return True
 
@@ -167,11 +273,49 @@ class TTSEvaluationPipeline:
         self.logger.info("STAGE 5: MOS Sample Selection")
         self.logger.info("=" * 60)
 
-        # This will be implemented in Day 4
-        self.logger.warning("⚠ MOS selection not yet implemented (Day 4)")
-        self.logger.info(f"   Will select {n_samples} samples for human rating")
+        # Load samples
+        samples_path = self.data_dir / "samples.json"
+        if not samples_path.exists():
+            self.logger.error("samples.json not found")
+            return False
 
-        return True
+        samples = load_samples(samples_path)
+
+        # Collect all synthesized samples
+        all_samples_data = []
+
+        for model_name in list_available_models():
+            model_output_dir = self.outputs_dir / model_name
+            if not model_output_dir.exists():
+                self.logger.warning(f"No outputs found for {model_name}")
+                continue
+
+            for sample in samples:
+                audio_path = model_output_dir / f"{sample['id']}.wav"
+                if audio_path.exists():
+                    all_samples_data.append({
+                        'model': model_name,
+                        'sample_id': sample['id'],
+                        'text': sample['text'],
+                        'audio_path': str(audio_path)
+                    })
+
+        if not all_samples_data:
+            self.logger.error("No synthesized samples found. Run synthesis first.")
+            return False
+
+        self.logger.info(f"Found {len(all_samples_data)} synthesized samples")
+
+        # Select and prepare MOS samples
+        mos_output_dir = self.results_dir / "mos_samples"
+        success = select_and_prepare_mos(
+            self.outputs_dir,
+            all_samples_data,
+            mos_output_dir,
+            n_samples=n_samples
+        )
+
+        return success
 
     def run_visualize(self) -> bool:
         """
