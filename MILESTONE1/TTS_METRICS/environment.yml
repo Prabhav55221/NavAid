@@ -1,0 +1,39 @@
+name: tts-metrics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23.0
+
+  # Core scientific computing
+  - numpy=1.26.4
+  - scipy=1.11.3
+  - pandas=2.1.4
+
+  # Audio processing
+  - librosa=0.10.1
+
+  # Visualization
+  - matplotlib
+  - seaborn
+
+  # System utilities
+  - psutil=5.9.6
+  - requests=2.31.0
+  - tqdm=4.66.1
+  - colorama=0.4.6
+
+  # Data handling
+  - datasets=2.16.1
+
+  # Pip-only packages
+  - pip:
+    - soundfile
+    - TTS==0.22.0                    # Coqui TTS
+    - piper-tts                      # Piper ONNX TTS
+    - openai-whisper==20231117       # Whisper ASR
+    - jiwer                          # WER computation
+    - py-cpuinfo==9.0.0              # CPU benchmarking
+    # Note: espeak-ng is a SYSTEM binary, not a Python package
+    # Install separately: brew install espeak-ng (macOS) or apt-get install espeak-ng (Linux)

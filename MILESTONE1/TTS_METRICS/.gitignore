@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data downloads (large files)
+data/raw/
+data/*.zip
+data/*.tar.gz
+
+# Model weights (large files)
+models/cache/
+models/*.pth
+models/*.onnx
+models/*.bin
+
+# Generated outputs (audio files)
+outputs/
+
+# Results except for final metrics
+results/*.json
+results/*.csv
+results/plots/*.png
+
+# Keep MOS samples (small, for human rating)
+# results/mos_samples/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
