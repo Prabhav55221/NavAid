@@ -6,6 +6,9 @@ dependencies:
   - python=3.10
   - pip>=23.0
 
+  # Fix OpenMP conflicts on macOS
+  - llvm-openmp
+
   # Core scientific computing
   - numpy=1.26.4
   - scipy=1.11.3
