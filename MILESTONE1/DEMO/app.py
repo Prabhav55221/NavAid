@@ -79,6 +79,15 @@ st.markdown("""
 class TTSEngine:
     """Unified TTS engine interface."""
 
+    # Model mapping from display name to TTS model path
+    TTS_MODELS = {
+        "System (pyttsx3)": None,
+        "Coqui VITS (LJSpeech)": "tts_models/en/ljspeech/vits",
+        "Coqui VITS (VCTK)": "tts_models/en/vctk/vits",
+        "Coqui Tacotron2": "tts_models/en/ljspeech/tacotron2-DDC",
+        "eSpeak-NG": None,
+    }
+
     def __init__(self, engine_type: str):
         self.engine_type = engine_type
         self.engine = None
@@ -89,25 +98,31 @@ class TTSEngine:
             if pyttsx3:
                 self.engine = pyttsx3.init()
                 self.engine.setProperty('rate', 150)
-        elif self.engine_type == "Coqui TTS":
+        elif self.engine_type == "eSpeak-NG":
+            if pyttsx3:
+                # Use pyttsx3 with espeak backend
+                self.engine = pyttsx3.init(driverName='espeak')
+                self.engine.setProperty('rate', 150)
+        elif self.engine_type in ["Coqui VITS (LJSpeech)", "Coqui VITS (VCTK)", "Coqui Tacotron2"]:
             if TTS:
                 try:
-                    self.engine = TTS("tts_models/en/ljspeech/vits")
+                    model_path = self.TTS_MODELS[self.engine_type]
+                    self.engine = TTS(model_path)
                 except Exception as e:
-                    st.error(f"Failed to load Coqui TTS: {e}")
+                    st.error(f"Failed to load {self.engine_type}: {e}")
 
     def speak(self, text: str) -> BytesIO:
         """Generate speech from text."""
         if not self.engine:
             raise RuntimeError(f"TTS engine {self.engine_type} not available")
 
-        if self.engine_type == "System (pyttsx3)":
+        if self.engine_type in ["System (pyttsx3)", "eSpeak-NG"]:
             # pyttsx3 plays directly, return None
             self.engine.say(text)
             self.engine.runAndWait()
             return None
 
-        elif self.engine_type == "Coqui TTS":
+        elif self.engine_type in ["Coqui VITS (LJSpeech)", "Coqui VITS (VCTK)", "Coqui Tacotron2"]:
             # Coqui generates audio file
             wav = self.engine.tts(text)
 
@@ -189,15 +204,20 @@ def main():
     tts_options = []
     if pyttsx3:
         tts_options.append("System (pyttsx3)")
+        tts_options.append("eSpeak-NG")
     if TTS:
-        tts_options.append("Coqui TTS")
+        tts_options.extend([
+            "Coqui VITS (LJSpeech)",
+            "Coqui VITS (VCTK)",
+            "Coqui Tacotron2"
+        ])
     tts_options.append("None (Text Only)")
 
     tts_engine_name = st.sidebar.selectbox(
         "TTS Engine",
         options=tts_options,
-        index=0 if tts_options else 2,
-        help="Select text-to-speech engine for audio output"
+        index=0 if tts_options else len(tts_options) - 1,
+        help="Select text-to-speech model (from TTS evaluation)"
     )
 
     # Advanced settings
